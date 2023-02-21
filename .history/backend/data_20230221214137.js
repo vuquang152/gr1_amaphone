@@ -57,9 +57,9 @@ const data = {
         },
         {
             // _id: '4',
-            name: 'Samsung A12',
-            slug: 'samsung-a12',
-            category: 'samsung',
+            name: 'Iphone 11',
+            slug: 'iphone-11',
+            category: 'iphone',
             image: '/images/p4.jpg',
             price: 800,
             countInStock: 10,

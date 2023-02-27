@@ -6,19 +6,17 @@
   "scripts": {
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
+    "serve": "node frontend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuquang152/amaphone_gr1.git"
+    "url": "git+https://github.com/vuquang152/gr1_amaphone.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vuquang152/amaphone_gr1/issues"
+    "url": "https://github.com/vuquang152/gr1_amaphone/issues"
   },
-  "homepage": "https://github.com/vuquang152/amaphone_gr1#readme",
-  "dependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "homepage": "https://github.com/vuquang152/gr1_amaphone#readme"
 }

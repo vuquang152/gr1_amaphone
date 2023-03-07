@@ -67,19 +67,6 @@ const data = {
             rating: 5.0,
             numReviews: 12,
             description: 'high quality product',
-        },
-        {
-            // _id: '4',
-            name: 'iphone 13 pro',
-            slug: 'iphone-13pro',
-            category: 'iphone',
-            image: '/images/p4.jpg',
-            price: 700,
-            countInStock: 10,
-            brand: 'apple',
-            rating: 4.0,
-            numReviews: 12,
-            description: 'high quality product',
         }
     ]
 };

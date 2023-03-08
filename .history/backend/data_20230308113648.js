@@ -281,10 +281,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            name: 'Bphone B40',
-            slug: 'bphone-b40',
+            name: 'Bphone A40',
+            slug: 'bphone-a40',
             category: 'bphone',
-            image: '/images/bphone-b40.jpg',
+            image: '/images/bphone-a40.jpg',
             price: 250,
             countInStock: 10,
             brand: 'bphone',

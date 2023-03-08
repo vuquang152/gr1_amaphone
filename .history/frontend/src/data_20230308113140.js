@@ -1,20 +1,4 @@
-import bcrypt from 'bcryptjs';
-
 const data = {
-    users: [
-        {
-          name: 'Quincy',
-          email: 'admin@example.com',
-          password: bcrypt.hashSync('123456@'),
-          isAdmin: true,
-        },
-        {
-          name: 'Khanh',
-          email: 'user@example.com',
-          password: bcrypt.hashSync('123456@'),
-          isAdmin: false,
-        },
-      ],
     products: [
         {
             name: 'Iphone 14 promax',
@@ -137,10 +121,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            name: 'Samsung Galaxy a23',
-            slug: 'samsung-galaxy-a23',
+            name: 'Samsung Galaxy a22',
+            slug: 'samsung-galaxy-a22',
             category: 'samsung',
-            image: '/images/samsung-galaxy-a23.jpg',
+            image: '/images/samsung-galaxy-a22.jpg',
             price: 1000,
             countInStock: 10,
             brand: 'samsung',
@@ -149,10 +133,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            name: 'Samsung Galaxy S22',
-            slug: 'samsung-galaxy-s22',
+            name: 'Samsung Galaxy S20',
+            slug: 'samsung-galaxy-s20',
             category: 'samsung',
-            image: '/images/samsung-galaxy-s22.jpg',
+            image: '/images/samsung-galaxy-s20.jpeg',
             price: 900,
             countInStock: 10,
             brand: 'samsung',
@@ -281,10 +265,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            name: 'Bphone B40',
-            slug: 'bphone-b40',
+            name: 'Bphone A40',
+            slug: 'bphone-a40',
             category: 'bphone',
-            image: '/images/bphone-b40.jpg',
+            image: '/images/bphone-a40.jpg',
             price: 250,
             countInStock: 10,
             brand: 'bphone',

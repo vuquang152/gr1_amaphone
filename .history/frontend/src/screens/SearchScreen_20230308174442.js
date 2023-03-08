@@ -268,7 +268,7 @@ export default function SearchScreen() {
                     className="mx-1"
                     to={{
                       pathname: '/search',
-                      search: getFilterUrl({ page: x + 1 }, true),
+                      seacrh: getFilterUrl({ page: x + 1 }, true),
                     }}
                   >
                     <Button

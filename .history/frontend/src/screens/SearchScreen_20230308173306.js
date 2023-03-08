@@ -255,7 +255,7 @@ export default function SearchScreen() {
     
                   <Row>
                     {products.map((product) => (
-                      <Col sm={6} lg={4} className="mb-3" key={product._id}>
+                      <Col sm={12} lg={4} className="mb-3" key={product._id}>
                         <Product product={product}></Product>
                       </Col>
                     ))}
@@ -268,7 +268,7 @@ export default function SearchScreen() {
                     className="mx-1"
                     to={{
                       pathname: '/search',
-                      search: getFilterUrl({ page: x + 1 }, true),
+                      seacrh: getFilterUrl({ page: x + 1 }, true),
                     }}
                   >
                     <Button

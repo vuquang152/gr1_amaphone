@@ -18,7 +18,7 @@ const reducer = (state, action) => {
     case 'FETCH_REQUEST':
       return { ...state, loading: true };
     case 'FETCH_SUCCESS':
-      return {
+      return { 
         ...state,
         products: action.payload.products,
         page: action.payload.page,
@@ -136,7 +136,7 @@ export default function SearchScreen() {
           </Helmet>
           <Row>
             <Col md={3}>
-              <h3>Department</h3>
+              <h3>Category</h3>
               <div>
                 <ul>
                   <li>

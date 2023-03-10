@@ -178,14 +178,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     2. show user information
     3. create user update api
     4. update user info
-31. Publish To Heroku
+31. Deploy on render
     1. create and config node project
     2. serve build folder in frontend folder
-    3. Create heroku account
+    3. Create render account
     4. connect it to github
     5. Create mongodb atlas database
-    6. Set database connection in heroku env variables
-    7. Commit and push
+    6. Set database connection in render env variables
 32. Add Sidebar and Search Box
     1. add sidebar
     2. add search box

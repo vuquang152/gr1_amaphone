@@ -164,7 +164,7 @@ const data = {
             name: 'Xiaomi redmi note 11 pro',
             slug: 'xiaomi-redmi-note-11pro',
             category: 'xiaomi',
-            image: '/images/Xiaomi-redmi-note-11.jpeg',
+            image: '/images/xiaomi-redmi-note-11.jpeg',
             price: 500,
             countInStock: 10,
             brand: 'xiaomi',

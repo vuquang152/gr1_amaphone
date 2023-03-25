@@ -47,7 +47,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Run npm start at files frontend vs backend to start app 
+### Run `npm start` at file backend and then frontend to start app 
+
+### Steps to build projects
 1. Create React App
 2. Create Git Repository
 3. List Products
@@ -178,75 +180,75 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     2. show user information
     3. create user update api
     4. update user info
-31. Deploy on render
+31. Add Sidebar and Search Box
+    1. add sidebar
+    2. add search box
+32. Create Search Screen
+    1. show filters
+    2. create api for searching products
+    3. display results
+33. Create Admin Menu
+    1. define protected route component
+    2. define admin route component
+    3. add menu for admin in header
+34. Create Dashboard Screen
+    1. create dashboard ui
+    2. implement backend api
+    3. connect ui to backend
+35. Manage Products
+    1. create products list ui
+    2. implement backend api
+    3. fetch data
+36. Create Product
+    1. create products button
+    2. implement backend api
+    3. handle on click
+37. Create Edit Product
+    1. create edit button
+    2. create edit product ui
+    3. dispaly product info in the input boxes
+38. Implement Update Product
+    1. create edit product backend api
+    2. handle update click
+39. Upload Product Image
+    1. create cloudinary account
+    2. use the api key in env file
+    3. handle upload file
+    4. implement backend api to upload
+40. Delete Product
+    1. show delete button
+    2. implement backend api
+    3. handle on click
+41. List Orders
+    1. create order list screen
+    2. implement backend api
+    3. fetch and display orders
+42. Deliver Order
+    1. add deliver button
+    2. handle click action
+    3. implement backend api for deliver
+43. Delete Order
+    1. add delete button
+    2. handle click action
+    3. implement backend api for delete
+44. List Users
+    1. create user list screen
+    2. implement backend api
+    3. fetch and display users
+45. Edit User
+    1. create edit button
+    2. create edit product ui
+    3. dispaly product info in the input boxes
+    4. implement backend api
+    5. handle edit click
+46. Delete User
+    1. add delete button
+    2. handle click action
+    3. implement backend api for delete
+47. Deploy on render
     1. create and config node project
     2. serve build folder in frontend folder
     3. Create render account
     4. connect it to github
     5. Create mongodb atlas database
     6. Set database connection in render env variables
-32. Add Sidebar and Search Box
-    1. add sidebar
-    2. add search box
-33. Create Search Screen
-    1. show filters
-    2. create api for searching products
-    3. display results
-34. Create Admin Menu
-    1. define protected route component
-    2. define admin route component
-    3. add menu for admin in header
-35. Create Dashboard Screen
-    1. create dashboard ui
-    2. implement backend api
-    3. connect ui to backend
-36. Manage Products
-    1. create products list ui
-    2. implement backend api
-    3. fetch data
-37. Create Product
-    1. create products button
-    2. implement backend api
-    3. handle on click
-38. Create Edit Product
-    1. create edit button
-    2. create edit product ui
-    3. dispaly product info in the input boxes
-39. Implement Update Product
-    1. create edit product backend api
-    2. handle update click
-40. Upload Product Image
-    1. create cloudinary account
-    2. use the api key in env file
-    3. handle upload file
-    4. implement backend api to upload
-41. Delete Product
-    1. show delete button
-    2. implement backend api
-    3. handle on click
-42. List Orders
-    1. create order list screen
-    2. implement backen api
-    3. fetch and display orders
-43. Deliver Order
-    1. add deliver button
-    2. handle click action
-    3. implement backen api for deliver
-44. Delete Order
-    1. add delete button
-    2. handle click action
-    3. implement backen api for delete
-45. List Users
-    1. create user list screen
-    2. implement backen api
-    3. fetch and display users
-46. Edit User
-    1. create edit button
-    2. create edit product ui
-    3. dispaly product info in the input boxes
-    4. implement backend api
-    5. handle edit click
-47. Delete User
-    1. add delete button
-    2. handle click action
-    3. implement backen api for delete
